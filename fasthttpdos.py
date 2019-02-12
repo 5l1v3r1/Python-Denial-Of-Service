@@ -8,7 +8,7 @@ from threading import Thread
 os.system('clear')
 
 print("""
-                Fast Http Denail Of Service Python3 Script
+                Fast Http Denial Of Service Python3 Script
                 Code By : GogoZin
         [Warning][!][Don't][Attack][Any][Gov][Websites][Please]
 """)
