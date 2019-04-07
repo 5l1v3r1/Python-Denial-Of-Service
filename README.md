@@ -8,7 +8,7 @@ Usage : python3 fasthttpdos.py
 
 I Delete This Scripts Just In Case
 
-Maybe I Will Upload It 
+Maybe I Will Upload It Again
 
 If I Want To Catch More About " Denial Of Service " Again Haha 
 
