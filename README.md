@@ -10,4 +10,4 @@ I Delete This Scripts Just In Case
 
 Maybe I Will Upload It Again 
 
-If I Want To Learn More About " Denial Of Service " Haha
+In Someday I Want To Catch More About " Denial Of Service " Haha
