@@ -7,4 +7,5 @@ Usage : python3 fasthttpdos.py
 //Waring
 
 I Delete This Scripts Just In Case
-I Will Upload It When I Going To Free ~
+Maybe I Will Upload It Again 
+If I Want To Learn More About " Denial Of Service " Haha
